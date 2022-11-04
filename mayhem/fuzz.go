@@ -16,18 +16,9 @@ func mayhemit(bytes []byte) int {
             pcurl.GetArgsToken(content)
             return 0
 
-        case 1:
+        default:
             content := string(bytes)
             pcurl.ParseString(content)
-            return 0
-
-        default:
-            var strArr = make([]string, len(bytes))
-            for i, byte := range bytes {
-
-                strArr[i] = string(byte)
-            }
-            pcurl.ParseSlice(strArr)
             return 0
 
         }
