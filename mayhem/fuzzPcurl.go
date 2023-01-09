@@ -1,4 +1,4 @@
-package fuzz
+package fuzzPcurl
 
 import "strconv"
 import "github.com/antlabs/pcurl"
