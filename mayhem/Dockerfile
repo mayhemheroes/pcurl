@@ -1,4 +1,4 @@
-FROM golang:1.25 AS builder
+FROM golang:1.25-bookworm AS builder
 
 COPY . /pcurl
 WORKDIR /pcurl/mayhem
