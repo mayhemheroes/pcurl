@@ -1,0 +1,5 @@
+project: pcurl
+target: pcurl
+
+cmds:
+  - cmd: /mayhem/pcurl
